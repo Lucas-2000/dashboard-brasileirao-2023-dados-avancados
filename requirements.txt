@@ -1,0 +1,4 @@
+matplotlib@latest
+streamlit@latest
+fsspec@latest
+pandas@latest
