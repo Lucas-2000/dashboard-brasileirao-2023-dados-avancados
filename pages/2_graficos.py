@@ -28,12 +28,10 @@ if dataset:
         if tipo_grafico != 'Selecione o tipo de gráfico':
             st.write("## Gráfico")
             if tipo_grafico in ['Gráfico de Linhas', 'Gráfico de Barras']:
-                exibir_grafico = st.sidebar.checkbox("Exibir Gráfico")
-                if exibir_grafico:
-                    if tipo_grafico == 'Gráfico de Linhas':
-                        st.line_chart(df.set_index(filtro1)[filtro2])
-                    elif tipo_grafico == 'Gráfico de Barras':
-                        st.bar_chart(df.set_index(filtro1)[filtro2])
+                if tipo_grafico == 'Gráfico de Linhas':
+                    st.line_chart(df.set_index(filtro1)[filtro2])
+                elif tipo_grafico == 'Gráfico de Barras':
+                    st.bar_chart(df.set_index(filtro1)[filtro2])
             elif tipo_grafico == 'Gráfico de Dispersão':
                 st.write("## Gráfico de Dispersão")
                 fig, ax = plt.subplots()
