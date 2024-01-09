@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("Gere os gráficos")
 
-dataset_directory = "D://Python//brasileirao_dash//datasets"
+dataset_directory = "datasets"
 
 datasets = sorted(os.listdir(dataset_directory))
 
