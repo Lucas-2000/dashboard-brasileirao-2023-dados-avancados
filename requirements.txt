@@ -1,4 +1,4 @@
-matplotlib@latest
-streamlit@latest
-fsspec@latest
-pandas@latest
+matplotlib~=3.4
+streamlit~=1.29
+fsspec~=2022.1
+pandas~=2.1
