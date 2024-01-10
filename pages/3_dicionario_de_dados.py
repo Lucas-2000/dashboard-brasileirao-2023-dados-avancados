@@ -55,4 +55,39 @@ if dataset:
     elif nome_do_dataset == 'squad_advanced_misc_stats_serie_a.csv':
       st.markdown(dic.squad_advanced_misc_stats_serie_a())
     
-
+    elif nome_do_dataset == 'squad_advanced_passing_opponent_squad_serie_a.csv':
+      st.markdown(dic.squad_advanced_passing_opponent_squad_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_passing_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_passing_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_passing_types_opponent_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_passing_types_opponent_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_passing_types_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_passing_types_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_passing_types_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_passing_types_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_playing_time_opponent_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_playing_time_opponent_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_playing_time_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_playing_time_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_possession_opponent_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_possession_opponent_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_possession_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_possession_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_shooting_opponent_stats_serie_a.csv':
+      st.markdown(dic.squad_advanced_shooting_opponent_stats_serie_a())
+    
+    elif nome_do_dataset == 'squad_advanced_shooting_stats_squad_serie_a.csv':
+      st.markdown(dic.squad_advanced_shooting_stats_squad_serie_a())
+    
+    elif nome_do_dataset == 'squad_standard_stats_opponent_serie_a.csv':
+      st.markdown(dic.squad_standard_stats_opponent_serie_a())
+      

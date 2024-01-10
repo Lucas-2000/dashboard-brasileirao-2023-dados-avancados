@@ -351,3 +351,315 @@ class Dicionario:
     """
     
     return texto
+  
+  def squad_advanced_passing_opponent_squad_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre os passes de cada equipe durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações como passes completos, totais, percentual de passes completados, distância total dos passes, distância progressiva dos passes, assistências esperadas (xA), entre outros.
+    - Squad: Nome do time adversário
+    - Pl: Número de jogadores
+    - 90s: Minutos convertidos para 90 minutos (tempo de jogo padrão)
+    - Cmp: Passes completos
+    - Att: Total de tentativas de passes
+    - Cmp%: Percentual de passes completados
+    - TotDist: Distância total dos passes em jardas
+    - PrgDist: Distância progressiva dos passes em jardas
+    - Ast: Assistências (passes que levaram a finalizações)
+    - xAG: Assistências esperadas em gols
+    - xA: Assistências esperadas
+    - A-xAG: Diferença entre assistências e assistências esperadas em gols
+    - KP: Chances de criação de gol (Key Passes)
+    - 1/3: Passes feitos no terço final do campo
+    - PPA: Passes progressivos para a área
+    - CrsPA: Passes progressivos para a área após cruzamento
+    - PrgP: Passes progressivos completos
+    """
+    
+    return texto
+  
+  def squad_advanced_passing_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre os passes de cada equipe durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações como passes completos, totais, percentual de passes completados, distância total dos passes, distância progressiva dos passes, assistências esperadas (xA), entre outros.
+    - Squad: Nome do time
+    - Pl: Número de jogadores
+    - 90s: Minutos convertidos para 90 minutos (tempo de jogo padrão)
+    - Cmp: Passes completos
+    - Att: Total de tentativas de passes
+    - Cmp%: Percentual de passes completados
+    - TotDist: Distância total dos passes em jardas
+    - PrgDist: Distância progressiva dos passes em jardas
+    - Ast: Assistências (passes que levaram a finalizações)
+    - xAG: Assistências esperadas em gols
+    - xA: Assistências esperadas
+    - A-xAG: Diferença entre assistências e assistências esperadas em gols
+    - KP: Chances de criação de gol (Key Passes)
+    - 1/3: Passes feitos no terço final do campo
+    - PPA: Passes progressivos para a área
+    - CrsPA: Passes progressivos para a área após cruzamento
+    - PrgP: Passes progressivos completos
+    """
+    
+    return texto
+  
+  def squad_advanced_passing_types_opponent_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre os diferentes tipos de passes das equipes adversárias durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações sobre passes ao vivo, passes mortos, cruzamentos, chutes, entre outros.
+    - Squad: Nome do time adversário
+    - Pl: Número de jogadores
+    - 90s: Minutos convertidos para 90 minutos (tempo de jogo padrão)
+    - Att: Total de tentativas de passes
+    - Live: Passes ao vivo
+    - Dead: Passes mortos
+    - FK: Passes provenientes de faltas
+    - TB: Passes provenientes de tiros de meta
+    - Sw: Passes provenientes de laterais
+    - Crs: Cruzamentos
+    - TI: Chutes
+    - CK: Cobranças de escanteio
+    - In: Passes para dentro
+    - Out: Passes para fora
+    - Str: Passes longos
+    - Cmp: Passes completos
+    - Off: Fora do alvo
+    - Blocks: Bloqueios
+    """
+    
+    return texto
+  
+  def squad_advanced_passing_types_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre os diferentes tipos de passes das equipes durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações sobre passes ao vivo, passes mortos, cruzamentos, chutes, entre outros.
+    - Squad: Nome do time
+    - Pl: Número de jogadores
+    - 90s: Minutos convertidos para 90 minutos (tempo de jogo padrão)
+    - Att: Total de tentativas de passes
+    - Live: Passes ao vivo
+    - Dead: Passes mortos
+    - FK: Passes provenientes de faltas
+    - TB: Passes provenientes de tiros de meta
+    - Sw: Passes provenientes de laterais
+    - Crs: Cruzamentos
+    - TI: Chutes
+    - CK: Cobranças de escanteio
+    - In: Passes para dentro
+    - Out: Passes para fora
+    - Str: Passes longos
+    - Cmp: Passes completos
+    - Off: Fora do alvo
+    - Blocks: Bloqueios
+    """
+    
+    return texto
+  
+  def squad_advanced_playing_time_opponent_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre o tempo de jogo das equipes durante os confrontos na temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações sobre minutos jogados, minutos por partida, minutos iniciados, minutos completados, substituições, entre outros.
+    - Squad: Nome do time
+    - Pl: Número de jogadores
+    - Age: Idade média do elenco
+    - MP: Total de partidas
+    - Min: Total de minutos jogados
+    - Mn/MP: Minutos por partida
+    - Min%: Porcentagem de minutos em relação ao total possível
+    - 90s: Total de 90 minutos jogados
+    - Starts: Total de partidas iniciadas
+    - Mn/Start: Média de minutos por partida iniciada
+    - Compl: Total de minutos completados
+    - Subs: Total de substituições
+    - Mn/Sub: Média de minutos por substituição
+    - unSub: Substituições não utilizadas
+    - PPM: Pontos por minuto
+    - onG: Total de gols marcados enquanto esteve em campo
+    - onGA: Total de gols sofridos enquanto esteve em campo
+    - +/-: Diferença entre gols marcados e sofridos
+    - +/-90: Diferença entre gols marcados e sofridos por 90 minutos
+    - onxG: Total de xG (Expected Goals) enquanto esteve em campo
+    - onxGA: Total de xGA (Expected Goals Against) enquanto esteve em campo
+    - xG+/-: Diferença entre xG e xGA
+    - xG+/-90: Diferença entre xG e xGA por 90 minutos
+    """
+    
+    return texto
+  
+  def squad_advanced_playing_time_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre o tempo de jogo das equipes durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações sobre minutos jogados, minutos por partida, minutos iniciados, minutos completados, substituições, entre outros.
+    - Squad: Nome do time
+    - Pl: Número de jogadores
+    - Age: Idade média do elenco
+    - MP: Total de partidas
+    - Min: Total de minutos jogados
+    - Mn/MP: Minutos por partida
+    - Min%: Porcentagem de minutos em relação ao total possível
+    - 90s: Total de 90 minutos jogados
+    - Starts: Total de partidas iniciadas
+    - Mn/Start: Média de minutos por partida iniciada
+    - Compl: Total de minutos completados
+    - Subs: Total de substituições
+    - Mn/Sub: Média de minutos por substituição
+    - unSub: Substituições não utilizadas
+    - PPM: Pontos por minuto
+    - onG: Total de gols marcados enquanto esteve em campo
+    - onGA: Total de gols sofridos enquanto esteve em campo
+    - +/-: Diferença entre gols marcados e sofridos
+    - +/-90: Diferença entre gols marcados e sofridos por 90 minutos
+    - onxG: Total de xG (Expected Goals) enquanto esteve em campo
+    - onxGA: Total de xGA (Expected Goals Against) enquanto esteve em campo
+    - xG+/-: Diferença entre xG e xGA
+    - xG+/-90: Diferença entre xG e xGA por 90 minutos
+    """
+    
+    return texto
+  
+  def squad_advanced_possession_opponent_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre a posse de bola das equipes durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações sobre a posse de bola em porcentagem, toques na bola, distribuição dos toques em diferentes áreas do campo, lances de ataque, sucessos, tackles, carregamento de bola, distância percorrida, progressão com a bola, entre outros.
+    - Squad: Nome do time
+    - Pl: Número de jogadores
+    - Poss: Posse de bola em porcentagem
+    - 90s: Total de 90 minutos jogados
+    - Touches: Total de toques na bola
+    - Def Pen: Toques na área defensiva
+    - Def 3rd: Toques no terço defensivo
+    - Mid 3rd: Toques no terço intermediário
+    - Att 3rd: Toques no terço de ataque
+    - Att Pen: Toques na área adversária
+    - Live: Toques em situações de jogo ativo
+    - Att: Tentativas de ataque
+    - Succ: Sucessos
+    - Succ%: Porcentagem de sucesso
+    - Tkld: Tackles sofridos
+    - Tkld%: Porcentagem de tackles sofridos
+    - Carries: Carregamento de bola
+    - TotDist: Total de distância percorrida
+    - PrgDist: Distância progressiva
+    - PrgC: Progressões com a bola
+    - 1/3: Passes no terço ofensivo
+    - CPA: Chutes a gol (Chute de perto da área)
+    - Mis: Finalizações erradas
+    - Dis: Disputas
+    - Rec: Recuperações
+    - PrgR: Progressão de Recuperação
+    """
+    
+    return texto
+  
+  def squad_advanced_possession_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre a posse de bola das equipes durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações sobre a posse de bola em porcentagem, toques na bola, distribuição dos toques em diferentes áreas do campo, lances de ataque, sucessos, tackles, carregamento de bola, distância percorrida, progressão com a bola, entre outros.
+    - Squad: Nome do time
+    - Pl: Número de jogadores
+    - Poss: Posse de bola em porcentagem
+    - 90s: Total de 90 minutos jogados
+    - Touches: Total de toques na bola
+    - Def Pen: Toques na área defensiva
+    - Def 3rd: Toques no terço defensivo
+    - Mid 3rd: Toques no terço intermediário
+    - Att 3rd: Toques no terço de ataque
+    - Att Pen: Toques na área adversária
+    - Live: Toques em situações de jogo ativo
+    - Att: Tentativas de ataque
+    - Succ: Sucessos
+    - Succ%: Porcentagem de sucesso
+    - Tkld: Tackles sofridos
+    - Tkld%: Porcentagem de tackles sofridos
+    - Carries: Carregamento de bola
+    - TotDist: Total de distância percorrida
+    - PrgDist: Distância progressiva
+    - PrgC: Progressões com a bola
+    - 1/3: Passes no terço ofensivo
+    - CPA: Chutes a gol (Chute de perto da área)
+    - Mis: Finalizações erradas
+    - Dis: Disputas
+    - Rec: Recuperações
+    - PrgR: Progressão de Recuperação
+    """
+    
+    return texto
+  
+  def squad_advanced_shooting_opponent_stats_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre os chutes das equipes adversárias durante a temporada da Série A do Campeonato Brasileiro de Futebol. Inclui informações sobre chutes a gol, chutes totais, chutes no alvo (SoT), porcentagem de chutes no alvo, média de chutes por jogo, média de chutes no alvo por jogo, média de gols por chute, média de gols por chute no alvo, distância média dos chutes, chutes de falta (FK), pênaltis (PK), cobranças de pênaltis, expectativa de gols (xG), expectativa de gols sem penalidades (npxG), expectativa de gols por chute, diferença entre gols reais e expectativa de gols (G-xG), e diferença entre gols reais sem penalidades e expectativa de gols (np:G-xG).
+    - Squad: Nome do time adversário
+    - Pl: Número de jogadores
+    - 90s: Total de 90 minutos jogados
+    - Gls: Total de gols marcados
+    - Sh: Total de chutes
+    - SoT: Total de chutes no alvo
+    - SoT%: Porcentagem de chutes no alvo
+    - Sh/90: Média de chutes por jogo
+    - SoT/90: Média de chutes no alvo por jogo
+    - G/Sh: Média de gols por chute
+    - G/SoT: Média de gols por chute no alvo
+    - Dist: Distância média dos chutes
+    - FK: Chutes de falta
+    - PK: Pênaltis
+    - PKatt: Cobranças de pênaltis
+    - xG: Expectativa de gols
+    - npxG: Expectativa de gols sem penalidades
+    - npxG/Sh: Expectativa de gols por chute
+    - G-xG: Diferença entre gols reais e expectativa de gols
+    - np:G-xG: Diferença entre gols reais sem penalidades e expectativa de gols
+    """
+    
+    return texto
+  
+  def squad_advanced_shooting_stats_squad_serie_a(self):
+    texto = """
+      Esta base contém estatísticas detalhadas sobre os chutes das equipes adversárias durante a temporada da Série A do Campeonato Brasileiro de Futebol. 
+      Inclui informações sobre chutes a gol, chutes totais, chutes no alvo (SoT), porcentagem de chutes no alvo, média de chutes por jogo, média de chutes no alvo por jogo, 
+      média de gols por chute, média de gols por chute no alvo, distância média dos chutes, chutes de falta (FK), pênaltis (PK), cobranças de pênaltis, 
+      expectativa de gols (xG), expectativa de gols sem penalidades (npxG), expectativa de gols por chute, diferença entre gols reais e expectativa de gols (G-xG), 
+      e diferença entre gols reais sem penalidades e expectativa de gols (np:G-xG).
+        - Squad: Nome do time adversário
+        - Pl: Número de jogadores
+        - 90s: Total de 90 minutos jogados
+        - Gls: Total de gols marcados
+        - Sh: Total de chutes
+        - SoT: Total de chutes no alvo
+        - SoT%: Porcentagem de chutes no alvo
+        - Sh/90: Média de chutes por jogo
+        - SoT/90: Média de chutes no alvo por jogo
+        - G/Sh: Média de gols por chute
+        - G/SoT: Média de gols por chute no alvo
+        - Dist: Distância média dos chutes
+        - FK: Chutes de falta
+        - PK: Pênaltis
+        - PKatt: Cobranças de pênaltis
+        - xG: Expectativa de gols
+        - npxG: Expectativa de gols sem penalidades
+        - npxG/Sh: Expectativa de gols por chute
+        - G-xG: Diferença entre gols reais e expectativa de gols
+        - np:G-xG: Diferença entre gols reais sem penalidades e expectativa de gols
+    """
+    
+    return texto
+  
+  def squad_standard_stats_opponent_serie_a(self):
+    texto = """
+    A base fornece estatísticas detalhadas sobre o desempenho das equipes adversárias durante a temporada da Série A do Campeonato Brasileiro de Futebol. Essas estatísticas são vitais para compreender o desempenho e o estilo de jogo dos times que competiram na liga.
+    Ela inclui uma ampla gama de métricas, como gols marcados, assistências, posse de bola média, cartões recebidos, expectativa de gols (xG), expectativa de gols sem penalidades (npxG), expectativa de assistências (xAG), entre outras. Esses dados ajudam a avaliar não apenas o desempenho ofensivo das equipes, mas também a eficácia de suas estratégias defensivas, com informações sobre cartões recebidos e gols sofridos.
+    - Squad: Nome do time adversário.
+    - Pl: Número de jogadores.
+    - Age: Idade média da equipe adversária.
+    - Poss: Posse de bola média da equipe adversária.
+    - MP: Número de partidas disputadas.
+    - Starts: Total de jogadores que iniciaram as partidas.
+    - Min: Total de minutos jogados.
+    - 90s: Total de 90 minutos jogados.
+    - Gls: Total de gols marcados pela equipe adversária.
+    - Ast: Total de assistências feitas pela equipe adversária.
+    - G+A: Total de gols e assistências.
+    - G-PK: Total de gols excluindo pênaltis.
+    - PK: Total de pênaltis marcados pela equipe adversária.
+    - PKatt: Total de cobranças de pênaltis pela equipe adversária.
+    - CrdY: Total de cartões amarelos recebidos.
+    - CrdR: Total de cartões vermelhos recebidos.
+    - xG: Expectativa de gols da equipe adversária.
+    - npxG: Expectativa de gols sem penalidades da equipe adversária.
+    - xAG: Expectativa de assistências da equipe adversária.
+    - npxG+xAG: Expectativa de gols e assistências sem penalidades da equipe adversária.
+    - PrgC: Total de progressões de passes na equipe adversária.
+    - PrgP: Total de progressões de passes para finalizações na equipe adversária.
+    """
+    
+    return texto
