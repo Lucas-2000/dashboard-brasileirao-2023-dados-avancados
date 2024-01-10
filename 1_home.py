@@ -10,10 +10,6 @@ import webbrowser
   
 st.write("# Dados avançados do campeonato brasileiro! ⚽")
 st.sidebar.markdown("Desenvolvido por [Lucas Marchesoni](https://www.linkedin.com/in/lucasmarchesoni/)")
-
-btn = st.button("Acesse os dados")
-if btn:
-  webbrowser.open_new_tab("https://github.com/Lucas-2000/api-sports-stats")
   
 st.markdown(
   """
@@ -25,5 +21,7 @@ st.markdown(
     e poder exportar os resultados para poder compartilhar em outros meios.
     
     Todos os dados foram retirados do site [Football Reference](https://fbref.com/en/comps/24/Serie-A-Stats).
+    
+    Para acessar os datasets separadamente [clique aqui](https://github.com/Lucas-2000/api-sports-stats).
   """
 )
