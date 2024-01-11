@@ -24,3 +24,6 @@ $ streamlit 1_home.py
 Para acessar o dashboard clique nesse [link](https://dashboard-brasileirao-2023-dados-avancados.streamlit.app).
 
 ## 🎞 Tutorial de utilização
+
+https://github.com/Lucas-2000/dashboard-brasileirao-2023-dados-avancados/assets/79289422/2896eb62-d903-4a6d-9120-059692245034
+
